@@ -49,7 +49,7 @@ export const MainPage: FC = () => {
             </div>
             {!isClicked ? (
                 <div className={styles.tips}>
-                    <img src={process.env.PUBLIC_URL + "/titleWhite.png"} alt="title" />
+                    <img src={process.env.PUBLIC_URL + "/logo_wukong.png"} alt="title" />
                     <div>按下任意按键开始游戏</div>
                 </div>
             ) : (

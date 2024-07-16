@@ -3,12 +3,12 @@ export const TEAM_LIST: {
   member: { name: string; link: string }[];
 }[] = [
   {
-    label: "整理",
+    label: "开发",
     member: [{ name: "北洛", link: "https://blackmonkey.top" }],
   },
   {
-    label: "开发",
-    member: [{ name: "Golder", link: "https://github.com/GolderV" }],
+    label: "原作者",
+    member: [{ name: "Golder", link: "https://blackmonkey.top" }],
   },
   {
     label: "紫云山影神图",
