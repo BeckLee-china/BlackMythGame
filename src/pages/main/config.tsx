@@ -5,11 +5,15 @@ import { SettingsPage } from "../settings";
 import { TeamPage } from "../team";
 
 export const MENU = [
+  // {
+  //   label: <Link to="/game">开始游戏</Link>,
+  //   key: "game",
+  //   path: "/game",
+  //   component: GamePage,
+  // },
   {
-    label: <Link to="/game">开始游戏</Link>,
+    label: <a href="https://blackmonkey.top/" target="_blank" rel="noopener noreferrer">开始游戏</a>,
     key: "game",
-    path: "/game",
-    component: GamePage,
   },
   {
     label: <Link to="/information">资料</Link>,
