@@ -6,7 +6,7 @@ import { TeamPage } from "../team";
 
 export const MENU = [
   {
-    label: <Link to="/game">新游戏</Link>,
+    label: <Link to="/game">开始游戏</Link>,
     key: "game",
     path: "/game",
     component: GamePage,
