@@ -37,4 +37,13 @@ export const TEAM_LIST: {
       },
     ],
   },
+  {
+    label: "意见建议",
+    member: [
+      {
+        name: "《黑猴网留言板》",
+        link: "https://support.qq.com/product/660382",
+      },
+    ],
+  },
 ];

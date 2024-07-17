@@ -76,7 +76,7 @@ export const GamePage: FC = () => {
       <div className="title">
         <img
           className="avatar"
-          src={process.env.PUBLIC_URL + "/avatar.jpg"}
+          src={process.env.PUBLIC_URL + "/avatar.ico"}
           alt="avatar"
         />
         <span className="tag">PC</span>

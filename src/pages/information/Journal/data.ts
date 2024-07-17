@@ -15,7 +15,7 @@ export const KING_DATA: MonsterData[] = [
     label: "黑熊精",
     key: "heixiongjing",
     info: {
-      img: "https://picx.zhimg.com/80/v2-a5107d6f1ad1d22ddbc9f509f4c1cde1_720w.webp?source=1940ef5c",
+      img: "https://docimg8.docs.qq.com/image/AgAABSznAawCaeqdCzJHw5qa5WWy_up7.jpeg?w=348&h=384",
     },
   },
   {
