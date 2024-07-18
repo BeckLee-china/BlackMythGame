@@ -12,7 +12,7 @@ export const MENU = [
   //   component: GamePage,
   // },
   {
-    label: <a href="https://blackmonkey.top/" target="_blank" rel="noopener noreferrer">开始游戏</a>,
+    label: <a href="https://blackmonkey.top/GameStart" target="_blank" rel="noopener noreferrer">开始游戏</a>,
     key: "game",
   },
   {
