@@ -35,7 +35,7 @@ export const MainPage: FC = () => {
 
             {/* 新添加的顶部链接 */}
             <a href="https://blackmonkey.top" className={styles.topLink} target="_blank" rel="noopener noreferrer">
-                blackmonkey.top
+                黑猴网（https://blackmonkey.top/）
             </a>
 
             <div
