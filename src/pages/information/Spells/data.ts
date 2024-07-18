@@ -67,7 +67,7 @@ export const SPELLS_ITEMS: SpellsTreeNode[] = [
         coolDown: 60,
         type: SpellsTypeEnum.Active,
         description:
-          "天命人使用身上毫毛施展的法术。\n拔一把毫毛，丢在口中嚼碎，望空中喷去，即变做数个毛猴。\n这些毛猴，眼乖会跳，能打能逃，就如天明人一般。\n\n见对手欺主，他们自会上去与之周旋，可乘机喘息一二，也可遁走离去。\n只是毛猴性命并不牢固，被强大威猛的对手争锋相对，有被迅速打灭之险。",
+          "天命人使用身上毫毛施展的法术。\n拔一把毫毛，丢在口中嚼碎，望空中喷去，即变做数个毛猴。\n这些毛猴，眼乖会跳，能打能逃，就如天命人一般。\n\n见对手欺主，他们自会上去与之周旋，可乘机喘息一二，也可遁走离去。\n只是毛猴性命并不牢固，被强大威猛的对手争锋相对，有被迅速打灭之险。",
         icon: "/spells/shenwaishenfa.png",
         video: "/spells/shenwaishenfa.mp4",
       },
