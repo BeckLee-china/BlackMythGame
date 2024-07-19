@@ -26,7 +26,7 @@ export const MainPage: FC = () => {
         <div className={styles.wrapper} onClick={onPlay} onKeyDown={onPlay}>
             <video
                 className={styles["background-video"]}
-                src={process.env.PUBLIC_URL + "/background.mp4"}
+                src={process.env.PUBLIC_URL + "/start.jpg"}
                 autoPlay
                 muted
                 loop
