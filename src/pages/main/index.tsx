@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 import { MENU } from "./config";
 import styles from "./index.module.scss";
 import { Menu } from "antd";
@@ -24,12 +24,16 @@ export const MainPage: FC = () => {
 
     return (
         <div className={styles.wrapper} onClick={onPlay} onKeyDown={onPlay}>
-            <video
+            {/*<video*/}
+            {/*    className={styles["background-video"]}*/}
+            {/*    src={process.env.PUBLIC_URL + "/background.mp4"}*/}
+            {/*    autoPlay*/}
+            {/*    muted*/}
+            {/*    loop*/}
+            {/*/>*/}
+            <Image
                 className={styles["background-video"]}
                 src={process.env.PUBLIC_URL + "/start.jpg"}
-                autoPlay
-                muted
-                loop
             />
             <audio src={process.env.PUBLIC_URL + "/main.mp3"} autoPlay></audio>
 
@@ -49,12 +53,12 @@ export const MainPage: FC = () => {
             </div>
             {!isClicked ? (
                 <div className={styles.tips}>
-                    <img src={process.env.PUBLIC_URL + "/logo_wukong.png"} alt="title" />
+                    <img src={process.env.PUBLIC_URL + "/logo_wukong.png"} alt="title"/>
                     <div>按下任意按键开始游戏</div>
                 </div>
             ) : (
                 <div className={styles.menu}>
-                    <Menu items={MENU} />
+                    <Menu items={MENU}/>
                 </div>
             )}
         </div>
